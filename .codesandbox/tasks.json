@@ -3,5 +3,16 @@
   "setupTasks": [],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
-  "tasks": {}
+  "tasks": {
+    "npm run test watch": {
+      "name": "All Jests",
+      "command": "npm run test:watch",
+      "runAtStart": true
+    },
+    "npm run": {
+      "name": "Run",
+      "command": "npm run start",
+      "runAtStart": true
+    }
+  }
 }
